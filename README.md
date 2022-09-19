@@ -10,6 +10,7 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │    ├── processed      <- The final, canonical data sets for modeling.
+    │    ├── test           <- A sample to for tests.
     │    └── raw            <- The original, immutable data dump.
     │
     │
@@ -18,7 +19,6 @@ Project Organization
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering).
     │
     ├── visualizations     <- Data exploration charts.
-    │                         
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
@@ -31,16 +31,20 @@ Project Organization
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │    └── build_features.py
     │   │
+    │   ├── app       <- Scripts to create a simple dashboard on streamlit
+    │   │    ├── logo.png    <- Logo
+    │   │    └── app.py      <- Streamlit App
+    │   │
     │   └── models         <- Scripts to train models and then use trained models to make
     │       │                 predictions
     │       ├── predict_model.py
     │       └── train_model.py 
     │ 
     ├── test               <- Directory containing unit tests for each directory in the source code.
+    ├── setup.cfg          <- Configuration file
+    ├── .pre-commit-config.yaml     <- Configuration file for creating a pre-commit hook to evaluate the code's format with black and flake8
+    ├── pyproject.toml               <- Configuration files
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
+    └── .gitignore         <- A gitignore file
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

@@ -4,10 +4,12 @@
 # external requirements
 numpy==1.23.3
 pandas==1.4.4
+black==22.8.0
 plotly==5.10.0
 setuptools==65.1.0
 sklearn==0.0
 Pillow==9.2.0
 scikit-learn==1.1.2
 joblib==1.2.0
+pre-commit==2.20.0
 streamlit==1.12.2
