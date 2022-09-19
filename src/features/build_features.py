@@ -64,6 +64,6 @@ if __name__ == '__main__':
     preprocessed_data = build_features(raw_data=raw,
                                        train_or_test="train",
                                        scaler_path='../../models/scaler.pkl',
-                                       pca_path='../models/pca_model.pkl')
+                                       pca_path='../../models/pca_model.pkl')
     logging.info("Feature Engineering done")
-    preprocessed_data.to_csv("../../data/processed/pre_processed_data.csv", index=False)
+    preprocessed_data.to_csv("../../data/processed/preprocessed_data.csv", index=False)
