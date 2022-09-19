@@ -50,40 +50,23 @@ coverage.xml
 # Django stuff:
 *.log
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
 # DotEnv configuration
 .env
 
-# Database
-*.db
-*.rdb
-
 # Pycharm
 .idea
-
-# VS Code
-.vscode/
-
-# Spyder
-.spyproject/
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
 
-# exclude data from source control by default
-/data/
-
 # Mac OS-specific storage files
 .DS_Store
 
-# vim
-*.swp
-*.swo
-
 # Mypy cache
 .mypy_cache/
+
+# External data sources
+data/
