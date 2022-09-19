@@ -1,7 +1,7 @@
 leukemia-diagnostic-assessment
 ==============================
 
-A short description of the project.
+The goal of the project is to predict the proportion of lymphocytes B for a patient in order to better and easily have a diagnosis for the chronic lymphocytic leukemia.
 
 Project Organization
 ------------
