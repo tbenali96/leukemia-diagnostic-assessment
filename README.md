@@ -32,8 +32,9 @@ Project Organization
     │   │    └── build_features.py
     │   │
     │   ├── app       <- Scripts to create a simple dashboard on streamlit
-    │   │    ├── logo.png    <- Logo
-    │   │    └── app.py      <- Streamlit App
+    │   │    ├── logo.png          <- Logo
+    │   │    ├── pages             <- Directory containing the other page of the streamlit app
+    │   │    └── main_page.py      <- Streamlit App
     │   │
     │   └── models         <- Scripts to train models and then use trained models to make
     │       │                 predictions
