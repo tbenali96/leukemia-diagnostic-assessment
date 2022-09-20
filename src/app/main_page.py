@@ -75,4 +75,5 @@ def main_app():
 
 
 if __name__ == "__main__":
+    st.sidebar.markdown("# Visualizations")
     main_app()

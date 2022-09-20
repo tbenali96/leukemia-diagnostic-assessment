@@ -35,7 +35,7 @@ test:
 
 ## Launch the app
 app:
-	cd src/app && streamlit run app.py
+	cd src/app && streamlit run main_page.py
 
 ## Delete all compiled Python files
 clean:
